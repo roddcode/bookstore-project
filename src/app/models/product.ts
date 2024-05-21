@@ -1,11 +1,11 @@
 export interface Product {
   id: number;
-  nombre: string;
-  autor: string;
-  precio: number;
-  descripcion: string;
+  name: string;
+  author: string;
+  price: number;
+  description: string;
   imgURL?: string;
-  genero: string;
+  gender: string;
   editorial: string;
   ISBN: string;
 }
